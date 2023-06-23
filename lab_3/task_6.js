@@ -4,3 +4,9 @@
 від 100 до 0 включно за допомогою декремента.
 */
 
+let start = 100;
+let result = [];
+
+for(i = start; i>= 0; i--){
+    result.push(i);
+}
