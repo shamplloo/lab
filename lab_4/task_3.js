@@ -6,3 +6,7 @@
 
 - зверніться до елемента <div></div> за тегом та присвойте вибрані елементи змінній tag
  */
+
+let id = document.getElementById("test")
+let className = document.getElementsByClassName("test")
+let tag = document.getElementsByTagName("div")
