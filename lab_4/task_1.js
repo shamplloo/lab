@@ -4,3 +4,14 @@
 True – число парне, False – число не парне. 
 Результат повернути за допомогою ключового слова "return".
  */
+
+function isEven (number) {
+
+    if (number % 2 === 0){
+        return true;
+    }
+    else {
+    return false;
+    }
+
+}
