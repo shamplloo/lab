@@ -4,3 +4,10 @@
 Створити кожен новий <li></li> елемент за допомогою методу createElement() 
 та додати до списоку за допомогою методу appendChild().
  */
+
+let ulElement = document.getElementById("test");
+
+for (let i = 0; i < 3; i++) {
+    let liElement = document.createElement('li');
+    ulElement.appendChild(liElement);
+}
