@@ -5,3 +5,12 @@
 А якщо не передати, то фунція має повернути глобальну змінну senseOfLife.
  */
 
+let senseOfLife = 42;
+function showVariable (otherSenseOfLife) {
+
+    if ( otherSenseOfLife) {
+    return otherSenseOfLife;
+    }
+    return senseOfLife;
+    
+}
